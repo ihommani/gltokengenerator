@@ -41,3 +41,10 @@ Then launching newman with the updated environement will make authenticated call
 Limitation
 ----------  
 The provided token has a fixed TTL of ~1h.  
+
+
+Former way
+---------- 
+TokenGeneratorOldWay class exposes another to generate Credentials.   
+It is based on the Credential google class (and not Credentials).   
+We may need this way of doing for some Google API clients. (e.g: the Sheet client).
